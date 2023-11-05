@@ -1,1 +1,12 @@
+import random
 
+def generate_band_name():
+    adjectives = ['Distributed', 'Cloudy', 'Shiny', 'Silver', 'Gold', 'Technical', 'Sparkling', 'Pastel', 'Hydrated', 'Tattooed']
+    nouns = ['Systems', 'Pythons', 'Snakes', 'Geminis', 'Cats', 'Electrolytes', 'Coconuts', 'Tofu', 'Trees', 'Candles']
+
+    adjective = random.choice(adjectives)
+    noun = random.choice(nouns)
+
+    return f'{adjective} {noun}'
+
+#Created a function to generate the band name, made a list for adjectives and a list for nouns, the function will return a random combination of one of the adjectives and one of the nouns. Tattooed Tofu was my result ;) 
