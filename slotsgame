@@ -1,0 +1,17 @@
+import random
+
+def randomNumber():
+    randomNumber = [1, 2, 8, 1, 0, 4, 3, 21, 33, 55, 777, 2, 3, 4, 5, 7, 9]
+
+def Guess():
+    Guess = ("Guess")
+
+def Jackpot():
+    Jackpot = ("Lottery")
+
+for Guess in randomNumber:
+    print [4, 6, 8]
+else: print [10]
+
+if Jackpot in randomNumber:
+    print ("Jackpot! [10]")
